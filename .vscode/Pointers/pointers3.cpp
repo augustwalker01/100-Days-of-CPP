@@ -10,9 +10,5 @@ P=&x;
 cout<< " the number entered is"<<endl;
 cout<< *(&x);
 
-
-
-
-
 return 0;
 }
