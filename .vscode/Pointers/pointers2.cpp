@@ -5,6 +5,11 @@ int main(){
 int x;
 int *P=&x;
 
+
+
+
+
+
 cin>>x;
 cout<<&P;
 return 0;
