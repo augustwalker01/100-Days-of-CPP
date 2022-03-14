@@ -7,6 +7,7 @@ cout<<"enter the integer"<<endl;
 cin>>x;
 int *P;
 P=&x;
+
 cout<< " the number entered is"<<endl;
 cout<< *(&x);
 
