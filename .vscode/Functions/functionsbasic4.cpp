@@ -10,5 +10,6 @@ cin>>base>>power;
 exp=pow(base,power);
 cout<<"The result will be"<<exp;
 
+
 return 0;
 }
