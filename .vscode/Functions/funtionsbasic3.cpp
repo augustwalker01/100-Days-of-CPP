@@ -16,6 +16,8 @@ int max(int x, int y, int z)
     }
 }
 int main()
+
+
 {
     int x, y, z, p;
     for (int i = 0; i < 3; i++)
