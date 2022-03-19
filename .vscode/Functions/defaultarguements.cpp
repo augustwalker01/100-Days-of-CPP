@@ -7,6 +7,7 @@ float add(float x ,float y=0,float z=0)
 }
 
 
+
 int main(){
     cout<<add(10.6);
     cout<<add(10,6);
