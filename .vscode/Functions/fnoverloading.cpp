@@ -20,6 +20,5 @@ int main()
     cout<<add(23,43,23.6f)<<endl;
 
     
-
 return 0;
 }
