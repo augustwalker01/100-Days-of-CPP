@@ -11,6 +11,7 @@ int main()
         if (A[i]>max)
         {
             max=A[i];
+            
         }
         
     }
