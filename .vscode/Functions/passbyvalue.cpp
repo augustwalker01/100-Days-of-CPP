@@ -14,6 +14,5 @@ int main(){
     swap(x,y);
     cout<<x<<" "<<y;
 
-
 return 0;
 }
