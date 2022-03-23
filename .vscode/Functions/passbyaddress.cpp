@@ -9,7 +9,6 @@ void swap(int *a, int *b)
     *b=temp;
     cout<<*a<<*b;
 }
-
 int main(){
 int x=23;int y=34;
 swap(&x,&y);
