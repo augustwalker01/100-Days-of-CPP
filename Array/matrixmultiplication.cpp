@@ -57,7 +57,6 @@ int main() {
            }
        }
    }
-
    cout<<"multiplication is"<<endl;
    for(i=0;i<3;i++)
    {
