@@ -43,8 +43,6 @@ for(i = 0; i < r1; ++i)
             mult[i][j]=0;
         }
 
-
-
 }
 
 // Multiplying matrix a and b and storing in array mult.
