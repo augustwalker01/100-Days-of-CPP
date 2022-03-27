@@ -10,7 +10,6 @@ for(int i=1;i<=e;i++)
     cin>>m;
     sum+=m;
 }
-
 int mean= sum/e;
 cout<<mean;
 
