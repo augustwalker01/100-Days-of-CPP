@@ -10,7 +10,6 @@ for(int i=0;i<size;i++)
 cin>>A[i];
 }
 
-
 for (int j = 0; j< size; j++)
 {
    cout<< A[j]<< endl;
