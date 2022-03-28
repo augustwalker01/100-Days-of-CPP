@@ -12,6 +12,5 @@ for(int i=1;i<=e;i++)
 }
 int mean= sum/e;
 cout<<mean;
-
 return 0;
 }
