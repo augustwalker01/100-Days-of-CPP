@@ -3,21 +3,22 @@
 using namespace std;
 int main()
 {
-int n,i=1,sum=0/*sum=1*/;
+int n,i=1,sum=1/*sum=1*/;
 cout<<"enter n"<<endl;
 cin>>n;
-/*for ( i = 1; i <=n; i++)
+for ( i = 1; i <=n; i++)
 {
-    sum=sum+i;
+    sum=sum*i;
     
 }
-*/
-while (i<=n)
+
+/*while (i<=n)
 {
     cout<<i<<endl;
     sum=sum+i;
     i++;
 }
+*/
 
 
 
