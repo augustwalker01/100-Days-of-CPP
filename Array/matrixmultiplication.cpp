@@ -54,6 +54,7 @@ int main() {
            for(k=0;k<3;k++)
            {
                mul[i][j]=mul[i][j]+a[i][k]*b[k][j];
+               // Element on A01 and b10 is multiplied therefore k was used here ....and then added to multiply matrix.
            }
        }
    }
