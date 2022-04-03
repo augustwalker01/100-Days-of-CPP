@@ -11,7 +11,7 @@ int sum(int A[],int B[])
     }
     for (int count  = 0;  count<=size ; count++)
     {
-        cout<<C
+        cout<<C[i];
     }
     
     cout<<"the sum is"<<endl;
