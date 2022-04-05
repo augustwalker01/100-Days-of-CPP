@@ -11,7 +11,7 @@ void swap (int a , int b )
 int main(){
     int x=15, y=30;
     swap(x,y);
-    cout<<x<<" "<<y;
+cout<<x <<y;
 
 return 0;
 }
