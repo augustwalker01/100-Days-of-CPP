@@ -2,14 +2,19 @@
 //Write a program in C++ to swap two numbers
 #include<iostream>
 using namespace std;
-int swap(int a,int b)
+void swap(int a,int b)
 {
-    int temp1,temp2;
-    temp1=a;
+    int temp;
+    temp=a;
     a=b;
-    b=temp2;
+    b=temp;
+cout<<a<<b;
 }
 int main(){
-
+    int a,b;
+cout<<"enter a and b "<<endl;
+cin>>a>>b;
+swap(a,b);
+cout<<a<<b;
 return 0;
 }
