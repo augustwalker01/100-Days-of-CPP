@@ -2,21 +2,23 @@
 
 #include<iostream>
 using namespace std;
-
-int mult(int n,int i=1)
+int mult(int x,int y)
 {
-    if (i<10)
-    {
-        return n*mult(i+1);
-    }
+  if (y!=1)
+  {
+    cout<<mult(x,y-1);
+  }
+  
+ return x*y;
 }
-int main(){
-int n, i;
-cout<<"enter n"
-<<endl;
-cin>>n;
-cout<<"enter i";
-cin>>i;
-cout<<mult(n,i)<<endl;
-return 0;
+int main()
+{
+  int x,y;
+  cout<<"ENTER THE NUMBER OF WHICH MULTIPLICATION TABLE IS TO BE FOUND"<<endl;
+  cin>>x;
+  cout<<"enter y";
+  cin>>y;
+  cout<<mult( x, y);
+ 
+  return 0;
 }
