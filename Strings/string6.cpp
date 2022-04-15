@@ -4,6 +4,7 @@ using namespace std;
 int main(){
     string str1="abc";
     string str2="abc";
+    
     if( str1.compare(str2)==0)
 
     {
