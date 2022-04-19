@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int size ,i,x=0;
+    int size ,i,x;
 int A[size];
 
 cout<<"Enter size "<<endl;
@@ -21,6 +21,7 @@ for ( i = 0; i <=size; i++)
    {
      x=A[i];
    }
+   
    
 }
 cout<<"the largest of the array is "<<x;

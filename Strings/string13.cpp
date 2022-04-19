@@ -11,6 +11,7 @@ int main ()
     for (i = 0; i < j; i++,j--)
     {
         temp = str[i];
+        
         str[i] = str[j];
         str[j] = temp;
     }
