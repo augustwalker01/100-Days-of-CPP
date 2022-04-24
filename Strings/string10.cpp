@@ -6,6 +6,5 @@ int main(){
     getline(cin ,str);
     str.insert(8 ,"drishya");
     cout<<str;
-
 return 0;
 }
