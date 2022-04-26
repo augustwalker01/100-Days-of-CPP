@@ -1,13 +1,13 @@
 #include<iostream>
 using namespace std;
 
-class Rectangle
+class Rectangle// if class is a car then objects are bmw , audi;
 {
-    public:
-    int length ;
+    public:// this is necessary because the class is by default private and not public
+    int length ;// these are data
     int breadth;
 
-    int area()
+    int area() //these are functions
     {
         return length*breadth;
     }
@@ -18,7 +18,7 @@ class Rectangle
 
 };
 int main(){
-    Rectangle r1;
+    Rectangle r1;// now here comes the object
     r1.length=10;
     r1.breadth=5;
     cout<<"the area of rectangle r1 will be "<<r1. area()<<endl;
