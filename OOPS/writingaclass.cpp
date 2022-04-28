@@ -33,6 +33,5 @@ int main(){
     r2.length=15;
     r2.breadth=10;
     cout<<"the perimeter of rectangle r2 will be "<<r2.perimeter()<<endl;
-
 return 0;
 }
