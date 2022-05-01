@@ -1,23 +1,24 @@
 #include<iostream>
 using namespace std;
-int recur(int a)
+void recur(int a)
 {
  
     
       if (a>0)
       {
+           recur(a-1);
           cout<<a;
-       return recur(a-1);
+      
       }
       else
       {
-          return 0;
+         cout<<" 0";
       }
 }
 int main(){
     int a;
 cin>>a;
-cout<<recur(a);
+recur(a);
 
 return 0;
 }
