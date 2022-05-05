@@ -28,6 +28,7 @@ while ( j!=0)
 if (arr[j]==x)
    {
        j=b;
+       
    }
 
    
