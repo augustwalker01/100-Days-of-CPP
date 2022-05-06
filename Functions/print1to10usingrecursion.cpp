@@ -11,8 +11,9 @@ int recur(int a)
         return recur(a-1);
       }
        return 0;
-      
 }
+      
+
 int main(){
     int a;
 cin>>a;
