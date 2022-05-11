@@ -12,6 +12,7 @@ int recur(int a)
       }
        return 0;
 }
+
 int main(){
     int a;
 cin>>a;
