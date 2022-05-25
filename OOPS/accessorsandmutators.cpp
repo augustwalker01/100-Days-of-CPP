@@ -7,8 +7,9 @@ int length;
 int breadth;
 public:
 int area(){
-    return lengthbreadth 
+    return lengthbreadth ;
 }
+
 
 int perimeter(){
     return 
