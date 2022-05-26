@@ -14,6 +14,7 @@ void My_Class::show_num()
 }
 
 int main()
+
 {
   My_Class ob, *p; // declare an object and pointer to it
 
