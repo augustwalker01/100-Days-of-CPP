@@ -15,7 +15,6 @@ int recur(int a)
 
 int main(){
 
-
     int a;
 cin>>a;
 cout <<recur(a);
