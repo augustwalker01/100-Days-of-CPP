@@ -5,7 +5,9 @@ class My_Class
 {
    int num;
 public:
-   void set_num(int val) {num = val}
+
+
+
    void show_num();
 };
 
