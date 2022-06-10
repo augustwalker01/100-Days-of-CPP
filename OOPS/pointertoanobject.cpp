@@ -1,16 +1,17 @@
 #include <iostream>
 using namespace std;
 
-class My_Class {
+class My_Class 
+{
    int num;
 public:
-   void set_num(int val) {num = val;}
+   void set_num(int val) {num = val}
    void show_num();
 };
 
 void My_Class::show_num()
 {
-   cout << num << "\n";
+cout << num << "\n";
 }
 
 int main()

@@ -14,7 +14,5 @@ int main()
    cout<<A[j]<<endl;
    }
    
-   
-  
     return 0;
 }
