@@ -1,14 +1,13 @@
 #include <iostream>
 using namespace std;
 
-class My_Class 
-{
-   int num;
+class My_Class;
+ 
+    
+void 
+int num;
 public:
-
-
-
-   void show_num();
+void show_num();
 };
 
 void My_Class::show_num()
