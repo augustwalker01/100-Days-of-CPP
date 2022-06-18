@@ -15,8 +15,6 @@ class Rectangle
     }
 };
 int main()
-
-
 {
     Rectangle r;
     r.length=10;
