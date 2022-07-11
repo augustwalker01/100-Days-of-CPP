@@ -12,6 +12,7 @@ class Rectangle
     if (l>0)
     {
         length=l;
+        
     }
     else
     cout<<"cant be negative";
@@ -43,11 +44,10 @@ return length;
     }
 };
 int main()
-
 {
     Rectangle r;
     r.setLength(10);
-    r.setBreadth(-3);
+    r.setBreadth(3);
 cout<<r.area();
 return 0;
 }
