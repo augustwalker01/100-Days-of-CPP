@@ -2,19 +2,19 @@
 using namespace std;
 int main()
 {
-  int A[10],n=10,i,k;
+  int A[10],i,k;
   cout<<"Enter numbers";
- for ( i = 0; i <n; i++)
+ for ( i = 0; i <10; i++)
  {
    cin>>A[i];
  }
  cout<< "eNTER KEY";
  cin>>k;
- for ( i = 0; i <n; i++)
+ for ( i = 0; i <10; i++)
  {
   if (k==A[i])
   {
-   cout<<"Number found"<<i;
+   cout<<"Number found at"<<i;
    return 0;
   }
  }
