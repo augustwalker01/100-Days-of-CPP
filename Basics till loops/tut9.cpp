@@ -1,29 +1,18 @@
-//armstrong number
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main()
-
-{
-    int n,r,sum=0,m;
-    cout<<" enter n";
-    cin>>n;
-    m=n;
-    while (n>0)
-    {
-        r=n%10;
-        n=n/10;
-        sum=sum+r*r*r;
-        
-        
-    }
-    if (sum==m)
-    {
-    cout<<"yes"<<endl;
-    }
-    else
-    {
-        cout<<"no";
-    }
-    
-return 0;
+int main() {
+	int num;
+	cin >> num;    
+	while(num--)
+	{
+		int a;
+		cin>>a;
+		for(int i=1;i<=a;i++){
+			for(int j=1;j<=2*a;j++)
+			{
+				cout<<"*";
+			}
+			cout<<endl;
+		}
+	}
 }
