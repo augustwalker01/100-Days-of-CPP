@@ -35,3 +35,7 @@ int main(){
         cout<<fact[n];
     }
 }
+//time complexity reduced 
+
+//0(t)+0(n);
+//time complexity in order of 1e5, while in the other it was 0(n^2)

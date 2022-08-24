@@ -1,14 +1,20 @@
 #include<iostream>
 using namespace std;
-
+const int N=1e7+10;
+int hsh[N];
 int main(){
     int n;
     cout<<"enter size"<<endl;
 cin>>n;
+
 int A[n];
 cout<<"enter elements"<<endl;
+for(int  i=0;i<n;i++){
+    cin>>A[i];
+    hsh[A[i]]++;
+}
 
-cin>>A[n];
+
 
 cout<<"enter queries"<<endl;
 int q;
@@ -18,13 +24,9 @@ while(q--)
     cout<<"enter element"<<endl;
 int k;
 cin>>k;
-int ct=0;
-for(int i=0;i<n;++i){
-    if(A[i]=k){
-        ct++;
-    }
+cout<<hsh[k]<<endl;
 }
-cout<<ct<<endl;
-}   
+
+  
 return 0;
 }
