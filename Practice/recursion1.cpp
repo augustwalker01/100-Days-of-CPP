@@ -7,6 +7,8 @@ void natural(int n){
     }
 }
 int main()
+
+
 {
     cout<<natural(n=1);
 }
