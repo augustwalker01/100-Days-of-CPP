@@ -10,7 +10,13 @@ r=powe(n-1)*2;
 return r;
 }
 int main(){
-  cout<< powe(5);
+  int t;
+  cin>>t;
+  while(t--){
+  cin>>n;
+  
+  cout<< powe(n);
+  }
 
 return 0;
 }
