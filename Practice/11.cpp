@@ -16,8 +16,6 @@ else if((b+c)/2<35)
 }
 else if((c+a)/2<35)
 {
-
-    
     cout<<"FAIL";
 }
 else
