@@ -1,18 +1,28 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-
-int main() {
-int t,a,b,c;
+int main(){
+float a,b,c;
+int t;
 cin>>t;
-while(t--)
+while(t--){
+cin>>a>>b>>c;
+if((a+b)/2<35)
 {
-    cin>>a>>b>>c;
-    if((a+b)/2>c){
-        cout<<"YES"<<endl;
-    }
-    else
-    cout<<"NO"<<endl;
-    
+    cout<<"FAIL";
 }
-	return 0;
+else if((b+c)/2<35)
+{
+    cout<<"FAIL";
+}
+else if((c+a)/2<35)
+{
+
+    
+    cout<<"FAIL";
+}
+else
+cout<<"PASS";
+}
+return 0;
+
 }
