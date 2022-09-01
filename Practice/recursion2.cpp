@@ -9,6 +9,7 @@ return 1;
 r=powe(n-1)*2;
 return r;
 }
+
 int main(){
   int t;
   cin>>t;
