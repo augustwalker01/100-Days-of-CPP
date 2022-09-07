@@ -10,9 +10,8 @@ int main(){
     {
       sum=sum+A[i];
     }
-    
+  
 
-    
 cout<<sum;
 
 return 0;
