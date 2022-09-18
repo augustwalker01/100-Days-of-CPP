@@ -5,9 +5,9 @@ int main()
 {
     
 
-    char s1[100]="Priyanshu";
+    string s1="Priyanshu";
      
-   for(int i=0;i<=100;i++)
+   for(int i=0;i<=s1.size();i++)
     {
        int a=(int)s1[i]+1;
        s1[i]=(char)a;
