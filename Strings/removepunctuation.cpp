@@ -17,6 +17,6 @@ int main()
     }
      
     // print string without punctuation
-    std::cout << str;
+    cout << str;
     return 0;
 }
