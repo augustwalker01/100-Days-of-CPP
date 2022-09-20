@@ -13,4 +13,6 @@ int main()
  cout<<a.empty()<<endl;
  cout<<a.front()<<endl;
  cout<<a.back()<<endl;
+ cout<<a.pop_back();
+ cout<<a;
 }
