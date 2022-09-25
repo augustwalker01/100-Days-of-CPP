@@ -15,6 +15,8 @@ int main(){
     cout<<v.front()<<endl;
     cout<<v.back()<<endl;
 
+    
+
 cout<<"before pop"<<endl;
 for(int i:v){
     cout<<i<<" ";
@@ -26,7 +28,5 @@ for(int i:v){
 }
 v.clear();
 cout<< "after clear"<<v.size()<<endl;
-
-
 return 0;
 }
