@@ -11,9 +11,11 @@ int main(){
     for(auto i:v){
         cout<<i<<" ";
     }
-    reverse(v.begin(),v.end());
+    reverse(v.begin(),v.end());//reversing
     for(auto i:v){
         cout<<i<<" ";
     }
+
+    
 
 }
