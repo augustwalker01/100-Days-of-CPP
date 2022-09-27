@@ -14,9 +14,6 @@ int main(){
     cout<<v.at(2)<<endl;
     cout<<v.front()<<endl;
     cout<<v.back()<<endl;
-
-    
-
 cout<<"before pop"<<endl;
 for(int i:v){
     cout<<i<<" ";
