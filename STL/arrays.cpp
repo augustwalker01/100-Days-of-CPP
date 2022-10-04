@@ -2,6 +2,9 @@
 #include<array>
 using namespace std;
 int main()
+
+
+
 {
  array<int,4>a={4,6,-1,7};
  int size=a.size();
