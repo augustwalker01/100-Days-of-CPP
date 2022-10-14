@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 #include<array>
 using namespace std;
 int main()
@@ -16,5 +16,5 @@ int main()
  cout<<a.empty()<<endl;
  cout<<a.front()<<endl;
  cout<<a.back()<<endl;
- cout<<a.pop_back();
+
 }
