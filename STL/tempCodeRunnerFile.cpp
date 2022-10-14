@@ -1,0 +1,1 @@
+cout<<priyanshu::a;
