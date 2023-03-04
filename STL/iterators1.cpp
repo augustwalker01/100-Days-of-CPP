@@ -4,9 +4,10 @@ int main()
 {
 
 
-string s="priyanshu";
-for(auto it: s)
+array<int,4>arr={3,4,3,2};
+for(auto it:arr.begin();it!=arr.end;it++)
 {
-    cout<<it;
+    cout<<*it;
 }
+return 0;
 }

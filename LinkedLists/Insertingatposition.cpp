@@ -52,18 +52,45 @@ void print(Node*&head){
      temp=temp->next;
     }
 }
+void deletingatposition(Node*head,int position)
+{
+    Node*temp=head;
+  Node*q=NULL;
+  if(position == 1)
+  {
+    head=temp->next;
+    delete temp;
+    
+    
+
+  }
+
+  
+  int cnt=1;
+  while(cnt<position-1)
+  {
+    temp=temp->next;
+    cnt++;
+  }
+  q=temp->next;
+  temp->next=q->next;
+  q->next=NULL;
+  delete q;
+
+  
+}
 int main() {
     // Write C++ code here
    Node*Node1= new Node(10);
    Node*head=Node1;
    Node*tail=Node1;
-   print(head);
+   //print(head);
    
    insertAttail(tail,11);
-   print(head);
+  // print(head);
    InsertatPosition(head,3,12);
-   print(head);
-   
-
+//    print(head);
+   deletingatposition(head,1);
+print(head);
 return 0;
 }
